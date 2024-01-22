@@ -24,9 +24,6 @@ public class DoctorController {
             return ResponseEntity.status(HttpStatus.NOT_FOUND).body(errorMessage);
         }
     }
- @GetMapping("/doctor")
-  public ResponseEntity<?>  getEmptyPage() {
-        return ResponseEntity.status(HttpStatus.SEE_OTHER).build();
-    }
+
 
 }
